@@ -22,7 +22,7 @@ const Main = props => {
                         autoPlay
                         loop
                         muted
-                        src={`/video/${
+                        src={`../video/${
                             video.hasOwnProperty(rocket)
                                 ? video[rocket]
                                 : video.Other

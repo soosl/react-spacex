@@ -52,7 +52,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter basename='/react-spacex'>
                 <Header
                     rockets={this.state.rockets}
                     changeRocket={this.changeRocket}
